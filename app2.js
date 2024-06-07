@@ -8,7 +8,7 @@ document.write("<h3>Ques no 2</h3>")
 let studentNamesObject = new Array();
 // Ques no 3
 document.write("<h3>Ques no 3</h3>")
-let studentNames = ["Mahrukh", "Manal", "Ounisa"];
+let studentNames = ["mahnoor", "manal", "mahnaz"];
 // Ques no 4
 document.write("<h3>Ques no 4</h3>")
 let idNo = [101, 102, 103, 104, 105];
@@ -17,7 +17,7 @@ document.write("<h3>Ques no 5</h3>")
 let quiz = [false, false, true, false];
 // Ques no 6
 document.write("<h3>Ques no 6</h3>")
-let mixArray = [101, false, false, "Mahrukh", "Manal", 102, 103, 104];
+let mixArray = [101, false, false, "Manal", "sawera", 102, 103, 104];
 // Ques no 7
 document.write("<h3>Ques no 7</h3>")
 let qualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"];
@@ -408,7 +408,7 @@ if (containsInvalidChar) {
 
 // Ques no 14
 document.write("<h3>Ques no 14</h3>");
-let A2 = ["cake", "apple pie", "cookie", "chips", "patties"];
+let A2 = ["nihari", "haleem", "pasta", "tikka", "biryani"];
 let userInput2 = prompt("Enter a food item to search:");
 userInput2 = userInput2.toLowerCase();
 let foundIndex2 = false;
@@ -424,7 +424,7 @@ if (found2) {
     document.write(userInput2 + " is available at index " + foundIndex2 + " in the list.");
 }
 else {
-    document.write("We are sorry " + userInput2 + " is not available in our bakery .");
+    document.write("We are sorry " + userInput2 + " is not available in our shop .");
 }
 
 // Ques no 15
@@ -443,7 +443,7 @@ alert("Password is valid!");
 
 // Ques no 16
 document.write("<h3>Ques no 16</h3>");
-let university = "University of Karachi";
+let university = "jinah university of medical sciene";
 let universityArray = university.split("");
 for (let i = 0; i < universityArray.length; i++) {
     document.write(universityArray[i] + "<br>");
